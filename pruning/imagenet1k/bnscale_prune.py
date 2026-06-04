@@ -87,7 +87,7 @@ def get_imagenet1k_dataloaders(
     device: torch.device,
     train_trsfm: transforms.Compose,
     valid_trsfm: transforms.Compose,
-    data_dir: str = "/ldisk/DeepLearning/Dataset/ImageNet_torchvision/",
+    data_dir: str = "/workspace/dataset/ImageNet/",
 ) -> tuple[DataLoader, DataLoader]:
     """ImageNet1kのDataLoaderを作成するユーティリティ関数
 
